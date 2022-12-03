@@ -32,8 +32,3 @@ def update_output(n_clicks, value):
      names = wrangle_results(results=results)
      data = names.to_dict('rows')
      return query, data
-
-
-
-if __name__ == '__main__':
-    app.run_server(debug=True)

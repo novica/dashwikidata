@@ -14,3 +14,8 @@ And run with:
 gunicorn dashwikidata.app:server -b :8000
 ```
 
+Alternatively it can be run with the debug server:
+
+```
+python -m dashwikidata
+```

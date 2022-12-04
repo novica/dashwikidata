@@ -17,5 +17,8 @@ gunicorn dashwikidata.app:server -b :8000
 Alternatively it can be run with the debug server:
 
 ```
+pip install -e .
 python -m dashwikidata
 ```
+Relevant discussion to have in mind about pyhon packaging:
+[src layout vs flat layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/)
